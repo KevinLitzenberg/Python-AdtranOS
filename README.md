@@ -1,4 +1,4 @@
-# Python
+# Python-AdrtanOS
 Python Scripts
 
 This script creates a sshConnect() object that leverages Paramiko to connect and speak to Adtran devices via ssh.  The object gets created with the call to conn = sshConnnect().  Then we call the object's only method getConnection and pass in the arguments.  Once getConnect() method is called we can then begin talking to the device.
