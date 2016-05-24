@@ -6,3 +6,9 @@ This script creates a sshConnect() object that leverages Paramiko to connect and
 In this eample we are logging in.  We first call the command 'show arp' which returns the arp table of the device.  Then we jump up to the enabled user by calling 'en'.  Once we are in enable mode the command 'show ver' is run to show the version of the firmware.
 
 This script can be used to automate to AOS products.  This basic framework is provided as an example.
+
+Apporprate changes must be made to this line. 
+
+print conn.getConnection("172.22.1.1","admin","password")
+
+As well as the enable password if it is diffrent then default.
